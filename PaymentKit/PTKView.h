@@ -13,6 +13,7 @@
 #import "PTKCardCVC.h"
 #import "PTKAddressZip.h"
 #import "PTKUSAddressZip.h"
+#import "PTKTextField.h"
 
 @class PTKView, PTKTextField;
 
@@ -32,6 +33,7 @@
 @property (nonatomic, readonly) PTKAddressZip *addressZip;
 
 @property IBOutlet UIView *innerView;
+@property IBOutlet UIImageView * backgroundImageView;
 @property IBOutlet UIView *clipView;
 @property IBOutlet PTKTextField *cardNumberField;
 @property IBOutlet PTKTextField *cardExpiryField;
